@@ -1,0 +1,56 @@
+{
+  "name": "reacted-tabler-icons",
+  "version": "1.0.5",
+  "description": "A dead simple project which is providing a React wrapper over a fantastic set of Tabler Icons",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "files": ["build"],
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gac3k/tabler-icons.git"
+  },
+  "keywords": [
+    "react",
+    "tabler",
+    "icons",
+    "svg",
+    "component",
+    "png",
+    "flat"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "author": "Dominik Gacek <contact@dominikgacek.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gac3k/tabler-icons/issues"
+  },
+  "homepage": "https://github.com/gac3k/tabler-icons#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "@types/node": "^13.13.4",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@types/react-is": "^16.7.1",
+    "@types/styled-components": "^5.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.7.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.0"
+  }
+}

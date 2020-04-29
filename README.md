@@ -31,6 +31,12 @@ as well as stroke width for each icon individually
 const renderedIcon = <Icon name={'ArrowDown'} strokeWidth={'5px'} />
 ```
 
+### Roadmap
+
+- [ ] Code splitting
+- [ ] More properties support
+- [ ] Open sourcing the generator code
+
 ### License
 
 Package is MIT licensed

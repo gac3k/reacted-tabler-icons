@@ -1,13 +1,17 @@
 {
   "name": "reacted-tabler-icons",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "A dead simple project which is providing a React wrapper over a fantastic set of Tabler Icons",
   "main": "build/index.js",
   "module": "build/index.es.js",
-  "files": ["build"],
   "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "es"
+  ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build:module" : "babel src --out-dir es --extensions '.ts,.tsx' --source-maps inline"
   },
   "repository": {
     "type": "git",
@@ -32,6 +36,11 @@
   },
   "homepage": "https://github.com/gac3k/tabler-icons#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
     "@types/node": "^13.13.4",
@@ -51,6 +60,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.8.7",
     "styled-components": "^5.1.0"
   }
 }

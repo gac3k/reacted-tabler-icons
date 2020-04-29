@@ -4,7 +4,7 @@ export default function ArrowsDiagonal2({ width = 24, height = 24, strokeWidth =
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrows-diagonal-2" width={width}
              height={height} viewBox="0 0 24 24" strokeWidth={strokeWidth} stroke="currentColor" fill="none"
-             strokeLinecap="round" stroke-linejoin="round">
+             strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>
             <polyline points="16 20 20 20 20 16"/>
             <line x1="14" y1="14" x2="20" y2="20"/>

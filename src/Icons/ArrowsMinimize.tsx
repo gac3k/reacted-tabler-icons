@@ -4,7 +4,7 @@ export default function ArrowsMinimize({ width = 24, height = 24, strokeWidth = 
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrows-minimize" width={width}
              height={height} viewBox="0 0 24 24" strokeWidth={strokeWidth} stroke="currentColor" fill="none"
-             strokeLinecap="round" stroke-linejoin="round">
+             strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>
             <polyline points="5 9 9 9 9 5"/>
             <line x1="3" y1="3" x2="9" y2="9"/>

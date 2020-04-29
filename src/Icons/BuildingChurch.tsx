@@ -4,7 +4,7 @@ export default function BuildingChurch({ width = 24, height = 24, strokeWidth = 
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-building-church" width={width}
              height={height} viewBox="0 0 24 24" strokeWidth={strokeWidth} stroke="currentColor" fill="none"
-             strokeLinecap="round" stroke-linejoin="round">
+             strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>
             <line x1="3" y1="21" x2="21" y2="21"/>
             <path d="M10 21v-4a2 2 0 0 1 4 0v4"/>

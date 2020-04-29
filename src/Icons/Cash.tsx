@@ -4,7 +4,7 @@ export default function Cash({ width = 24, height = 24, strokeWidth = 2 }) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-cash" width={width}
              height={height} viewBox="0 0 24 24" strokeWidth={strokeWidth} stroke="currentColor" fill="none"
-             strokeLinecap="round" stroke-linejoin="round">
+             strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>
             <rect x="7" y="9" width="14" height="10" rx="2"/>
             <circle cx="14" cy="14" r="2"/>

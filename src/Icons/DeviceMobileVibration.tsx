@@ -4,7 +4,7 @@ export default function DeviceMobileVibration({ width = 24, height = 24, strokeW
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-device-mobile-vibration"
              width={width} height={height} viewBox="0 0 24 24" strokeWidth={strokeWidth} stroke="currentColor"
-             fill="none" strokeLinecap="round" stroke-linejoin="round">
+             fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>
             <g transform="rotate(15 12 12)">
                 <rect x="7" y="4" width="10" height="16" rx="1"/>

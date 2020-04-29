@@ -4,7 +4,7 @@ export default function FloatRight({ width = 24, height = 24, strokeWidth = 2 })
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-float-right" width={width}
              height={height} viewBox="0 0 24 24" strokeWidth={strokeWidth} stroke="currentColor" fill="none"
-             strokeLinecap="round" stroke-linejoin="round">
+             strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>
             <rect width="6" height="6" x="14" y="5" rx="1"/>
             <line x1="4" y1="7" x2="10" y2="7"/>
